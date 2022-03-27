@@ -1,0 +1,52 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+wallpaper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    /* background-color: white; */
+}
+
+#app {
+    width: 280px;
+    height: auto;
+    position: absolute;
+    left: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#welogo {
+    background: url(../dummies/logo.svg) 0 0 no-repeat;
+    background-position: top left;
+    background-size: contain;
+    height: 29px;
+    left: 18px;
+    pointer-events: none;
+    position: absolute;
+    top: 18px;
+    width: 52px;
+    z-index: 202;
+}
+
+#ui {
+    background: transparent url(../dummies/ui.png) no-repeat;
+    background-size: contain;
+    width: 207px;
+    height: 40px;
+    position: absolute;
+    right: 11px;
+    top: 10px;
+    width: 207px;
+    z-index: 201;
+}
